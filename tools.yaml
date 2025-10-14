@@ -1,0 +1,16 @@
+# Toolbox MCP Server Configuration
+# BigQuery tools configuration for insurance sales data
+
+tools:
+  - type: bigquery
+    name: bq-mcp-toolset
+    config:
+      project_id: "my-project-0004-346516"
+      location: "us-central1"
+      # Enable specific BigQuery tools
+      enabled_tools:
+        - ask_data_insights
+        - forecast
+        - execute_sql
+        - get_table_info
+        - list_tables

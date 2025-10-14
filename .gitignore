@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+*.env
+
+# BigQuery
+*.csv
+*.json
+credentials.json
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Toolbox binary
+toolbox
+
+# Backup files
+*_backup.py
+code_backup/

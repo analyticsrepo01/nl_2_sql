@@ -1,0 +1,9 @@
+# Core dependencies for NL2SQL BigQuery Agent
+google-genai
+google-adk
+google-cloud-bigquery
+google-auth
+google-cloud-aiplatform
+PyYAML
+loguru
+SQLAlchemy

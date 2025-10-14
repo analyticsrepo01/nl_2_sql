@@ -1,0 +1,30 @@
+# BigQuery NL2SQL Agent Configuration - Insurance Dataset
+
+# Google Cloud Project ID
+project_id: "my-project-0004-346516"
+
+# Google Cloud Location/Region
+location: "us-central1"
+
+# BigQuery Table Configuration
+bigquery:
+  # Full table reference: project.dataset.table
+  table: "my-project-0004-346516.insurance.agent_sales_ledger"
+
+  # Dataset name (extracted from table)
+  dataset: "insurance"
+
+  # Write mode: BLOCKED (read-only), ALLOWED (allows write operations)
+  write_mode: "BLOCKED"
+
+# Agent Configuration
+agent:
+  name: "insurance_sales_agent"
+  model: "gemini-2.5-flash"  # Latest Gemini 2.5
+  description: "Agent to answer questions about insurance sales data using natural language queries"
+
+# Session Configuration
+session:
+  app_name: "insurance_sales_app"
+  user_id: "user1234"
+  session_id: "default_session"
